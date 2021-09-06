@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@color/blackIe"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal"
+        android:hint="Enter Roll NO"
+        android:inputType="textVisiblePassword"
+        android:textColor="#DCE7EC"
+        android:textColorHighlight="#EADEDE"
+        android:textColorHint="#03A9F4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/teal_200"
+        android:text="GET DETAILS"
+        android:textColor="#E0E7EA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#009688"
+        tools:ignore="TextContrastCheck" />
+
+
+</LinearLayout>

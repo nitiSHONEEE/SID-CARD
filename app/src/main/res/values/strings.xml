@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">N ID PROOF</string>
+    <string name="yoj">\Year of Joining : 20\</string>
+    <string name="deg">\Degree : \</string>
+    <string name="branchh">\Branch : \</string>
+
+</resources>
